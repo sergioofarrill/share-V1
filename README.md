@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Roots Theme](http://roots.io/)
 
 Roots is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/) that will help you make better themes.
@@ -80,3 +81,9 @@ Everyone is welcome to help [contribute](CONTRIBUTING.md) and improve this proje
 ## Support
 
 Use the [Roots Discourse](http://discourse.roots.io/) to ask questions and get support.
+=======
+share-V1
+========
+
+Wordpress Theme For Share
+>>>>>>> 7ebfe0426b1ea2beceb7bc7f759f5b63d8edda2b
