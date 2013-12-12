@@ -8,7 +8,7 @@ Template Name: homepage
  
 
 <section id="about" class="arrow_box_about">
-  <h2 class="sections">About</h2>
+  <h2 class="sections">PHILOSOPHY</h2>
   <!--  <p class="main-line">
   		Brutal Simplicity of Thought, Ruthlessly Measured.
   	</p>-->
@@ -78,7 +78,7 @@ Template Name: homepage
 
 <section id="work" class="arrow_box_work">
   <div class="col_12">
-    <h2 class="white sections">Digital, social, mobile but always ‘Brutally Simple’.</h2>
+    <h2 class="white sections">WORK</h2>
   </div>
   <div class="col_12 hometxt">
  <div>
@@ -99,7 +99,7 @@ Template Name: homepage
 
 <section id="share" class="arrow_box_blog">
 
-  <h2 class="white sections">SHARE</h2>
+  <h2 class="white sections">COMMUNITY</h2>
 <!--BLOG-->
 <div class="col_6">
 
