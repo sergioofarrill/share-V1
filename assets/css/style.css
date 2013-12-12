@@ -149,7 +149,7 @@ background: url('../img/title-bg1-w.png') no-repeat center bottom;
 text-align: center; font-family: 'Anton', 'arial', sans-serif;}
 .hidetxt	{ text-indent:-9999px; }
 .main-line	{ font-size: 180%;  padding: 5px;  text-align: center;}
-.txt-justified {margin: 0 auto; text-align: justify; width: 40em; }
+.txt-justified {margin: 0 auto; text-align: justify; width: 30em; }
 .thepost .txt-justified	{width: 50em;}
 
 
@@ -329,7 +329,7 @@ text-transform: uppercase;
 section#team_mobile  {display: none;}
 #share {min-height: 1100px;}
 .teamlogo {margin-left: 5%;}
-.txt-justified, .thepost .txt-justified	{width: 30em;
+.txt-justified, .thepost .txt-justified	{width: 25em;
 	transition-property: all;
   transition-duration: 350ms;
   transition-timing-function: ease-in-out;
@@ -364,7 +364,7 @@ img.smlpic:hover{ width: 90px; height: 90px;transition-property: all;transition-
 	padding:5px;}
 #share {min-height: 1200px;}
 .post { width: 25em;}
-.txt-justified, .thepost .txt-justified	{width: 25em;
+.txt-justified, .thepost .txt-justified	{width: 24em;
 	transition-property: all;
   transition-duration: 350ms;
   transition-timing-function: ease-in-out;
