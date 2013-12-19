@@ -30,23 +30,60 @@
   <a href="#" class="go-top"><img src="assets/img/share_arrow_top.png" /></a>
 	</section>
 
-	</div><!-- Container -->
+	</div> <!-- Container -->
     </div>
   
 </footer>
 
 <!--Changing Background-->
 
+<!--Changing Background-->
+
+<!-- PARAMETERS
+
+Loop {doLoop:true}
+
+ -->
+    
 <script type="text/javascript">
-$(document).ready(function() {
-var bgArray = ['bg1.jpg', 'bg2.jpg', 'bg3.jpg', , 'bg4.jpg', , 'bg5.jpg'];
-var bg = bgArray[Math.floor(Math.random() * bgArray.lenght)];
-// If you have defined a path for the images
-var path = 'assets/img/bg/';
-// then you can put it right before the variable 'bg'
-$('body').css('background', path+bg);
-}); 
+  
+      $(function() {
+            var BV = new $.BigVideo({useFlashForFirefox:false});
+            var vids = [
+            'http://mcsaatchi-share.com/video/1st_piece.webm',
+                'http://mcsaatchi-share.com/video/2b_piece.webm',
+                'http://mcsaatchi-share.com/video/2nd_piece.webm',
+                'http://mcsaatchi-share.com/video/9th_piece.webm',
+                'http://mcsaatchi-share.com/video/11th_piece.webm',
+              'http://mcsaatchi-share.com/video/1st_piece.mp4',
+                'http://mcsaatchi-share.com/video/2b_piece.mp4',
+                'http://mcsaatchi-share.com/video/2nd_piece.mp4',
+                'http://mcsaatchi-share.com/video/9th_piece.mp4',
+                'http://mcsaatchi-share.com/video/11th_piece.mp4'
+                
+                
+            ];
+            var altvid = [
+                'http://mcsaatchi-share.com/video/1st_piece.ogv',
+                'http://mcsaatchi-share.com/video/2b_piece.ogv',
+                'http://mcsaatchi-share.com/video/2nd_piece.ogv',
+                'http://mcsaatchi-share.com/video/9th_piece.ogv',
+                'http://mcsaatchi-share.com/video/11th_piece.ogv'
+                
+                
+            ];
+            vids.sort(function() { return 0.5 - Math.random() }); // random order on load
+      BV.init();
+      if (Modernizr.touch) {
+      BV.show('http://mcsaatchi-share.com/assets/img/SHARE-BG.jpg');
+            } 
+      else {
+      BV.show(vids,{ambient:true, },{altSource:altvid});
+      }
+      });
+    
 </script>  
+
 
 <!--PAGE TRANSITIONS-->
 <!--Hide Body -->

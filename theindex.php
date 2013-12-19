@@ -19,7 +19,7 @@ Template Name: homepage
 		Conversations, <span class="grot">relationships</span>, trust.  <br/>
 		None of it is possible without it.<br/>
 		</p>
-  	</li>
+  	</li> 
  	<li>
  		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-1.png" alt="Share-SlideShow-1" width="618px" height="246px" />
   	</li> 
