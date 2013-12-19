@@ -21,22 +21,22 @@ Template Name: homepage
 		</p>
   	</li>
  	<li>
- 		<img src="assets/img/slideshow/Share-SlideShow-1.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+ 		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-1.png" alt="Share-SlideShow-1" width="618px" height="246px" />
   	</li> 
   	<li>
-		<img src="assets/img/slideshow/Share-SlideShow-2.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-2.png" alt="Share-SlideShow-1" width="618px" height="246px" />
 	</li>
 	<li>
-		<img src="assets/img/slideshow/Share-SlideShow-3.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-3.png" alt="Share-SlideShow-1" width="618px" height="246px" />
 	</li>
 	<li>
-		<img src="assets/img/slideshow/Share-SlideShow-4.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-4.png" alt="Share-SlideShow-1" width="618px" height="246px" />
 	</li>
 	<li>
-		<img src="assets/img/slideshow/Share-SlideShow-5.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-5.png" alt="Share-SlideShow-1" width="618px" height="246px" />
 	</li>
 	<li>
-		<img src="assets/img/slideshow/Share-SlideShow-6.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-6.png" alt="Share-SlideShow-1" width="618px" height="246px" />
 	</li>
 </ul>
 

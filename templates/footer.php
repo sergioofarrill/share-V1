@@ -77,8 +77,28 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 </script>
 
 <!-- NIVO SLIDER-->
-<script src="assets/js/jquery.nivo.gallery.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="assets/js/jquery.nivo.slider.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" ></script>
+    <script src="http://mcsaatchi-share.com/assets/js/video-js/video.js"></script>
+    <script src="http://mcsaatchi-share.com/assets/js/imagesloaded.js" ></script>
+    <script src="http://mcsaatchi-share.com/assets/js/bigvideo.js" ></script>
+    <script src="http://mcsaatchi-share.com/assets/js/jquery.bxslider.min.js" type="text/javascript"></script>
+    <script src="http://mcsaatchi-share.com/assets/js/jquery.anythingslider.min.js" type="text/javascript"></script>
+    <script src="http://mcsaatchi-share.com/assets/js/jquery.anythingslider.video.min.js" type="text/javascript"></script>
+    <script src="http://mcsaatchi-share.com/assets/js/custom.js" ></script>
+
+ <script type="text/javascript">
+   $('#txtSlider').bxSlider({ 
+    speed: '4000',
+    pause: '10000',
+    auto: 'true',
+    autoDelay: '3000',
+    controls: 'false'
+    
+    
+   });
+   
+</script>
+    
 <script type="text/javascript">
 $(window).load(function() {
 $('#slider').nivoSlider({

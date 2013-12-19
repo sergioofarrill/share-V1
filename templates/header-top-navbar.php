@@ -11,9 +11,9 @@
 <header class="banner container" role="banner">
 		<h1 id="sharelogo" class="animated fadeInUp brand">
 		<a class="brand hidetxt" href="<?php echo home_url(); ?>/">
-			<img src="assets/img/finalshare-01.png" alt="Logo" class="top-logo-white"/></a>
+			<img src="http://mcsaatchi-share.com/assets/img/finalshare-01.png" alt="Logo" class="top-logo-white"/></a>
 		<a class="brand hidetxt" href="<?php echo home_url(); ?>/">
-			<img src="assets/img/finalshare-04.png" alt="Logo" class="top-logo-black"/></a>
+			<img src="http://mcsaatchi-share.com/assets/img/finalshare-04.png" alt="Logo" class="top-logo-black"/></a>
 		</h1>
 </header>
 <header>
