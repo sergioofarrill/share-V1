@@ -85,5 +85,5 @@ Use the [Roots Discourse](http://discourse.roots.io/) to ask questions and get s
 share-V1
 ========
 
-Wordpress Theme For Share
+Wordpress Theme For Share - Local Set up with absolute paths
 >>>>>>> 7ebfe0426b1ea2beceb7bc7f759f5b63d8edda2b
