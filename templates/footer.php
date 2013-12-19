@@ -113,7 +113,7 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 });
 </script>
 
-<!-- NIVO SLIDER-->
+
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" ></script>
     <script src="http://mcsaatchi-share.com/assets/js/video-js/video.js"></script>
     <script src="http://mcsaatchi-share.com/assets/js/imagesloaded.js" ></script>
@@ -122,7 +122,7 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     <script src="http://mcsaatchi-share.com/assets/js/jquery.anythingslider.min.js" type="text/javascript"></script>
     <script src="http://mcsaatchi-share.com/assets/js/jquery.anythingslider.video.min.js" type="text/javascript"></script>
     <script src="http://mcsaatchi-share.com/assets/js/custom.js" ></script>
-
+<!-- BOX SLIDER -->
  <script type="text/javascript">
    $('#txtSlider').bxSlider({ 
     speed: '4000',
@@ -130,29 +130,45 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     auto: 'true',
     autoDelay: '3000',
     controls: 'false'
-    
-    
-   });
-   
+       });   
 </script>
-    
+
+<!--VIDEO SLIDER (USES ANYTHING SLIDER) -->
+<!-- CHANGE SLIDER DIV ID IN INDEX PAGE TO SWITCH SLIDERS AND ADD VIDEO CONTENT TO SLIDER-->
+
 <script type="text/javascript">
-$(window).load(function() {
-$('#slider').nivoSlider({
-effect:"random",
-      slices:15,
-      boxCols:8,
-      boxRows:4,
-      animSpeed:500,
-      pauseTime:6000,
-      startSlide:0,
-      directionNav:true,
-      controlNav:true,
-      controlNavThumbs:false,
-      pauseOnHover:true,
-      manualAdvance:false
-});
-});
+var playvid = function(slider) {
+var vid = slider.$currentPage.find('video');
+if (vid.length) {
+// autoplay
+vid[0].play();
+}
+};
+
+$('#slider').anythingSlider({
+
+// Autoplay video in initial panel, if one exists
+onInitialized: function(e, slider) {
+playvid(slider);
+},
+// pause video when out of view
+onSlideInit: function(e, slider) {
+var vid = slider.$lastPage.find('video');
+if (vid.length && typeof(vid[0].pause) !== 'undefined') {
+vid[0].pause();
+}
+},
+// play video
+onSlideComplete: function(slider) {
+playvid(slider);
+},
+// pause slideshow if video is playing
+isVideoPlaying: function(slider) {
+var vid = slider.$currentPage.find('video');
+return (vid.length && typeof(vid[0].pause) !== 'undefined' && !vid[0].paused && !vid[0].ended);
+}
+
+});​
 </script>
 
 <!--SCROLL TO TOP-->
