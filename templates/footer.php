@@ -148,6 +148,8 @@ vid[0].play();
 };
 
 $('#vidSlider').anythingSlider({
+buildArrows         : true,
+buildNavigation     : false,
 
 // Autoplay video in initial panel, if one exists
 onInitialized: function(e, slider) {
@@ -169,6 +171,7 @@ isVideoPlaying: function(slider) {
 var vid = slider.$currentPage.find('video');
 return (vid.length && typeof(vid[0].pause) !== 'undefined' && !vid[0].paused && !vid[0].ended);
 }
+
 
 });​
 </script>

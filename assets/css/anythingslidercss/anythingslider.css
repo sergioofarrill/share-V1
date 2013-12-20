@@ -234,7 +234,7 @@
   apparently, a negative text-indent on an "a" link moves the link as well as the text */
 .anythingSlider .arrow span {
 	display: block;
-	visibility: hidden;
+	
 }
 /* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
 .anythingSlider .arrow.disabled {

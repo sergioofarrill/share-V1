@@ -23,8 +23,14 @@ Black   #0A141400A000
 @import url(anythingslidercss/anythingslider.css);
 @import url(anythingslidercss/theme-minimalist-round.css);
 
-
-
+/*CHANGE ON LIVE CSS DIC 20 13*/
+.playall {font-size: 9em; color: #000000; font-family: "Anton", 'arial', sans-serif; text-align: center;}
+.arrow, .arrow span { color: black; font-size: 1.2em;}
+.anythingControls { display:none!important;}
+.arrow_box_about {position: relative;background: #FFFFFF;} /*#54a446;*/
+.arrow_box_about:after {border-top-color: #FFFFFF;} /*#54a446;*/
+.anythingSlider-minimalist-round .forward a.span { background-image: url ( http://mcsaatchi-share.com/wp-content/themes/share-V1/assets/css/images/FWD-Arrow.png);}
+.anythingSlider-minimalist-round .back { background-image: url ( http://mcsaatchi-share.com/wp-content/themes/share-V1/assets/css/images/BCK-Arrow.png);}
 /*CHANGE ON LESS*/
 
 
@@ -161,8 +167,7 @@ text-align: center; font-family: 'Anton', 'arial', sans-serif;}
  {top: 100%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;border-color: rgba(136, 183, 213, 0); border-width: 50px;left: 21%;margin-left: -100px;z-index:1;}
 .arrow_box_work {position: relative;background: #7ccbc8;}
 .arrow_box_work:after {border-top-color: #7ccbc8;}
-.arrow_box_about {position: relative;background: #f6f6f6;} /*#54a446;*/
-.arrow_box_about:after {border-top-color: #f6f6f6;} /*#54a446;*/
+
 .arrow_box_blog {position: relative;background: #bfcf34;}
 .arrow_box_blog:after {border-top-color: #bfcf34;}
 .arrow_box_team {position: relative;background: #f6f6f6;}
@@ -180,7 +185,7 @@ text-align: center; font-family: 'Anton', 'arial', sans-serif;}
 .bx-controls		{display: none;}
 .bx-wrapper img{ display:block;max-width: 70%; margin: 0 auto;}
 .vjs-control-bar { display:none!important; }
-.anythingControls, .arrow { display: none !important; }
+
 
 /*about DISPLAY STUFF*/
 .WD-BG {padding: 10px;background: #0A1414; }

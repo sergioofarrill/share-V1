@@ -117,7 +117,7 @@
  ************************/
 /* Navigation Arrows */
 .anythingSlider-minimalist-round .arrow {
-	top: 92%;
+	top: 55%;
 	position: absolute;
 	display: block;
 }
@@ -182,7 +182,7 @@
 
 .anythingSlider-minimalist-round .anythingControls span {
 	display: block;
-	visibility: hidden;
+	
 }
 
 /* navigationSize window */
@@ -254,7 +254,7 @@ COMMON SLIDER STYLING
 	apparently, a negative text-indent on an "a" link moves the link as well as the text */
 .anythingSlider .arrow span {
 	display: block;
-	visibility: hidden;
+	
 }
 /* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
 .anythingSlider .arrow.disabled {
