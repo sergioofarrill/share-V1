@@ -115,7 +115,7 @@ z-index: -500;
 }
 
 #about, #about_mobile, #work, #share, #contact, #theteam, #team_mobile  { width: 100%; z-index: -; padding: 10px; display:block;}
-#about, #about_mobile { background-color: rgba(244, 244, 244, .96); min-height: 400px; }
+#about, #about_mobile { background-color: rgba(255, 255, 255, 1); min-height: 400px; }
 #work	{ background-color: #7ccbc8; min-height: 800px;} /*54a446*/
 #share	{ background-color:  rgba(191,207,52,1); min-height: 1000px; transition-property: all;transition-duration: 350ms;transition-timing-function: ease-in-out;}
 #theteam	{background: transparent; min-height: 500px; margin-bottom:50px; }

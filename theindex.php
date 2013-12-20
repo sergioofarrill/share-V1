@@ -12,32 +12,57 @@ Template Name: homepage
   <!--  <p class="main-line">
   		Brutal Simplicity of Thought, Ruthlessly Measured.
   	</p>-->
-  <ul id="txtSlider">
+  <ul id="vidSlider">
   	<li>
-  		<p class="fronttxt">Sharing is <span class="grot">human</span>.<br/>
-		It’s part of our social make up. <br/>
-		Conversations, <span class="grot">relationships</span>, trust.  <br/>
-		None of it is possible without it.<br/>
-		</p>
+  		<video class="showcase_b"  width="93.3%"   preload="none" class="video-js vjs-default-skin">
+		<source src="http://mcsaatchi-share.com/video/Clip3-Take1.mp4" type="video/mp4">
+		<source src="http://mcsaatchi-share.com/video/Clip3-Take1.webm" type="video/webm"> 
+		<source src="http://mcsaatchi-share.com/video/Clip3-Take1.ogv" type="video/ogv">     
+		</video>
   	</li> 
  	<li>
- 		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-1.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+ 		<video class="showcase_b"  width="93.3%" preload="none" class="video-js vjs-default-skin">
+		<source src="http://mcsaatchi-share.com/video/Clip2-Take2.mp4" type="video/mp4">
+		<source src="http://mcsaatchi-share.com/video/Clip2-Take2.webm" type="video/webm"> 
+		<source src="http://mcsaatchi-share.com/video/Clip2-Take2.ogv" type="video/ogv">     
+		</video>
   	</li> 
   	<li>
-		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-2.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+  		<video class="showcase_b"  width="93.3%"   preload="none" class="video-js vjs-default-skin">
+		<source src="http://mcsaatchi-share.com/video/Clip6-Take2.mp4" type="video/mp4">
+		<source src="http://mcsaatchi-share.com/video/Clip6-Take2.webm" type="video/webm"> 
+		<source src="http://mcsaatchi-share.com/video/Clip6-Take2.ogv" type="video/ogv">     
+		</video>
 	</li>
 	<li>
-		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-3.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<video class="showcase_b"  width="93.3%"  preload="none" class="video-js vjs-default-skin">
+		<source src="http://mcsaatchi-share.com/video/Clip4.2-Take1.mp4" type="video/mp4">
+		<source src="http://mcsaatchi-share.com/video/Clip4.2-Take1.webm" type="video/webm"> 
+		<source src="http://mcsaatchi-share.com/video/Clip4.2-Take1.ogv" type="video/ogv">     
+		</video>
 	</li>
 	<li>
-		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-4.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<video class="showcase_b"  width="93.3%"   preload="none" class="video-js vjs-default-skin">
+		<source src="http://mcsaatchi-share.com/video/Clip5-Take1.mp4" type="video/mp4">
+		<source src="http://mcsaatchi-share.com/video/Clip5-Take1.webm" type="video/webm"> 
+		<source src="http://mcsaatchi-share.com/video/Clip5-Take1.ogv" type="video/ogv">     
+		</video>
 	</li>
 	<li>
-		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-5.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<video class="showcase_b"  width="93.3%"  preload="none" class="video-js vjs-default-skin">
+		<source src="http://mcsaatchi-share.com/video/Clip7-Take2.mp4" type="video/mp4">
+		<source src="http://mcsaatchi-share.com/video/Clip7-Take2.webm" type="video/webm"> 
+		<source src="http://mcsaatchi-share.com/video/Clip7-Take2.ogv" type="video/ogv">     
+		</video>
 	</li>
 	<li>
-		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-6.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+		<video class="showcase_b"  width="93.3%"   preload="none" class="video-js vjs-default-skin">
+		<source src="http://mcsaatchi-share.com/video/Clip1-Take1.mp4" type="video/mp4">
+		<source src="http://mcsaatchi-share.com/video/Clip1-Take1.webm" type="video/webm"> 
+		<source src="http://mcsaatchi-share.com/video/Clip1-Take1.ogv" type="video/ogv">     
+		</video>
 	</li>
+	<li> <h2> <a href="/#&panel1-1"> PLAY ALL AGAIN </a> </h2> </li>
 </ul>
 
   <!-- WORK DISPLAY 1 HTML LIGHTBOX

@@ -87,6 +87,7 @@ Loop {doLoop:true}
 
 <!--PAGE TRANSITIONS-->
 <!--Hide Body -->
+
 <script type="text/javascript">
 $(document).ready(function() {
 $('body').css('display', 'none');
@@ -122,7 +123,7 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     <script src="http://mcsaatchi-share.com/assets/js/jquery.anythingslider.min.js" type="text/javascript"></script>
     <script src="http://mcsaatchi-share.com/assets/js/jquery.anythingslider.video.min.js" type="text/javascript"></script>
     <script src="http://mcsaatchi-share.com/assets/js/custom.js" ></script>
-<!-- BOX SLIDER -->
+<!-- BOX SLIDER 
  <script type="text/javascript">
    $('#txtSlider').bxSlider({ 
     speed: '4000',
@@ -132,11 +133,12 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     controls: 'false'
        });   
 </script>
-
+-->
 <!--VIDEO SLIDER (USES ANYTHING SLIDER) -->
 <!-- CHANGE SLIDER DIV ID IN INDEX PAGE TO SWITCH SLIDERS AND ADD VIDEO CONTENT TO SLIDER-->
 
 <script type="text/javascript">
+
 var playvid = function(slider) {
 var vid = slider.$currentPage.find('video');
 if (vid.length) {
@@ -145,7 +147,7 @@ vid[0].play();
 }
 };
 
-$('#slider').anythingSlider({
+$('#vidSlider').anythingSlider({
 
 // Autoplay video in initial panel, if one exists
 onInitialized: function(e, slider) {
