@@ -24,7 +24,7 @@ Black   #0A141400A000
 @import url(anythingslidercss/theme-minimalist-round.css);
 
 /*CHANGE ON LIVE CSS DIC 20 13*/
-.playall {font-size: 9em; color: #000000; font-family: "Anton", 'arial', sans-serif; text-align: center;}
+.playall {font-size: 2em; color: #000000; font-family: "Anton", 'arial', sans-serif; text-align: center; position:relative;top: 40%;}
 .arrow, .arrow span { color: black; font-size: 1.2em;}
 .anythingControls { display:none!important;}
 .arrow_box_about {position: relative;background: #FFFFFF;} /*#54a446;*/

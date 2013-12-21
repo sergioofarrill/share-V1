@@ -148,8 +148,6 @@ vid[0].play();
 };
 
 $('#vidSlider').anythingSlider({
-buildArrows         : true,
-buildNavigation     : false,
 
 // Autoplay video in initial panel, if one exists
 onInitialized: function(e, slider) {
@@ -174,6 +172,16 @@ return (vid.length && typeof(vid[0].pause) !== 'undefined' && !vid[0].paused && 
 
 
 });​
+
+
+</script>
+
+<script type="text/javascript">
+  $("#backtoOne").click(function(e){
+    $('#vidSlider').anythingSlider(1);
+    console.log ("i work")
+    e.preventDefault();
+});
 </script>
 
 <!--SCROLL TO TOP-->
