@@ -434,6 +434,7 @@ li.aboutSlider { margin-left: 5%;}
   }
 #vidSlider { display: none;} .anythingSlider {display:none;}
 #mobileslider { display: block;} 
+.bx-wrapper img {max-width: 100%;}
 
 }
 
@@ -448,6 +449,8 @@ li.aboutSlider { margin-left: 5%;}
 	}
 #vidSlider { display: none;} .anythingSlider {display:none;}
 #mobileslider { display: block;} 
+.bx-wrapper img {max-width: 100%;}
+
 }
 
 
@@ -498,7 +501,9 @@ li.aboutSlider { margin-left: 5%;}
   transition-timing-function: ease-in-out;
 	}
 #vidSlider { display: none;} .anythingSlider {display:none;} 
-#mobileslider { display: block;}   
+#mobileslider { display: block;} 
+.bx-wrapper img {max-width: 100%;}
+
 }
 
 /*	BigVideo Styles 
