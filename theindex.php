@@ -74,6 +74,30 @@ Template Name: homepage
 	</li>
 </ul>
 
+<ul id="mobileslider">
+	<li> 
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-0.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+	</li>
+	<li> 
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-1.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+	</li>
+	<li> 
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-2.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+	</li>
+	<li> 
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-3.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+	</li>
+	<li> 
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-4.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+	</li>
+	<li> 
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-5.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+	</li>
+	<li> 
+		<img src="http://mcsaatchi-share.com/assets/img/slideshow/Share-SlideShow-6.png" alt="Share-SlideShow-1" width="618px" height="246px" />
+	</li>
+</ul>
+
   <!-- WORK DISPLAY 1 HTML LIGHTBOX
 
  <div style="display:none">
@@ -117,10 +141,13 @@ Template Name: homepage
   <div class="col_12 hometxt">
  <div>
     <div id="wrkVid" class="WD-BG">
-     	<h3>Catch The Kid</h3>
+     	<center>
+     		<h2 class="grot white">CATCH THE KID</h2>
+     		<h3 class="grot white">New Mexico Case Study </h3>
+     	</center>
      		<ul>
      			<li>
-     				<iframe src="//player.vimeo.com/video/53719715?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height="501" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+     				<iframe src="//player.vimeo.com/video/55790491?title=0&amp;byline=0&amp;portrait=0&amp;color=000" width="100%" height="501" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
      			</li>
      		</ul>
       </div>
@@ -137,7 +164,7 @@ Template Name: homepage
 <!--BLOG-->
 <div class="col_6">
 
-				<center><a href="blog"><button type="button" class="btn"><h2><i class="icon-align-justify"></i>BLOG</h2></button></a></center>
+				<center><a href="blog"><button type="button" class="btn"><h2 class="grot"><i class="icon-align-justify"></i>BLOG</h2></button></a></center>
 				<!-- Variables -->
 				
 				<?php $my_query = new WP_Query('category_name=blog&showposts=1');
@@ -147,7 +174,7 @@ Template Name: homepage
 					
 				<div class="post btm-border" id="post-<?php the_ID(); ?>">
 					<div class="preview">
-						<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a></h2>
+						<h2 class="grot"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a></h2>
 			<div class="the-f-img">
 			<?php // Must be inside a loop.	
 			if ( has_post_thumbnail() ) {
@@ -172,7 +199,7 @@ Template Name: homepage
 <!--IDEAS-->
 <div class="col_6">
 
-				<center><a href="index.php?cat=6"><button type="button" class="btn"><h2>IDEAS</h2></button></a></center>
+				<center><a href="index.php?cat=6"><button type="button" class="btn"><h2 class="grot">IDEAS</h2></button></a></center>
 				<!-- Variables -->
 				
 				<?php $my_query = new WP_Query('category_name=ideas&showposts=1');
@@ -180,7 +207,7 @@ Template Name: homepage
 				<!-- App de Variables y Creaci—n de UL -->
 				<div class="post btm-border" id="post-<?php the_ID(); ?>">
 							<div class="preview">
-									<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a></h2>
+									<h2 class="grot"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a></h2>
 		<div class="the-f-img">
 		<?php // Must be inside a loop.	
 		if ( has_post_thumbnail() ) {
@@ -204,7 +231,7 @@ Template Name: homepage
 <!--TOOLS-->
 <div class="col_6">
 
-				<center><a href="index.php?cat=9"><button type="button" class="btn"><h2>TOOLS</h2></button></a></center>
+				<center><a href="index.php?cat=9"><button type="button" class="btn"><h2 class="grot">TOOLS</h2></button></a></center>
 				<!-- Variables -->
 				<?php $my_query = new WP_Query('category_name=tools&showposts=1');
 	  				while ($my_query->have_posts()) : $my_query->the_post(); ?>
@@ -212,7 +239,7 @@ Template Name: homepage
 				
 				<div class="post btm-border" id="post-<?php the_ID(); ?>">
 							<div class="preview">
-								<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a></h2>
+								<h2 class="grot"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a></h2>
 		<div class="the-f-img">
 		<?php // Must be inside a loop.	
 		if ( has_post_thumbnail() ) {
@@ -238,14 +265,14 @@ Template Name: homepage
 <!--EVENTS-->
 <div class="col_6">
 
-				<center><a href="index.php?cat=4"><button type="button" class="btn"><h2>EVENTS</h2></button></a></center>
+				<center><a href="index.php?cat=4"><button type="button" class="btn"><h2 class="grot">EVENTS</h2></button></a></center>
 				<!-- Variables -->
 				<?php $my_query = new WP_Query('category_name=events&showposts=1');
 	  				while ($my_query->have_posts()) : $my_query->the_post(); ?>
 				<!-- App de Variables y Creaci—n de UL -->
 				<div class="post btm-border" id="post-<?php the_ID(); ?>">
 							<div class="preview">
-									<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a></h2>
+									<h2 class="grot"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a></h2>
 		<div class="the-f-img">
 		<?php // Must be inside a loop.	
 		if ( has_post_thumbnail() ) {
@@ -274,13 +301,13 @@ Template Name: homepage
   <div class="teamlogo">
 	    <div class="square1"><a href="#" class="lbp-inline-link-1"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',3);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Doug-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',3);?>.png';" class="smlpic circleimg" /></a></div>
 	    <div class="square2"><a href="#" class="lbp-inline-link-2"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',4);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Betsy-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',4);?>.png';" class="smlpic" /></a></div>
-	    <div class="square3"><a href="#" class="lbp-inline-link-3"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',5);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Huw-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',5);?>.png';" class="smlpic" /></a></div>
-	    <div class="square4"><a href="#" class="lbp-inline-link-4"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',6);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/James-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',6);?>.png';" class="smlpic" /></a></div>
+	    <div class="square3"><a href="#" class="lbp-inline-link-4"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',6);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/James-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',6);?>.png';" class="smlpic" /></a></div>
+	    <div class="square4"><a href="#" class="lbp-inline-link-3"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',5);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Huw-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',5);?>.png';" class="smlpic" /></a></div>
 	    <div class="square5"><a href="#" class="lbp-inline-link-5"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',7);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Jordan-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',7);?>.png';" class="smlpic" /></a></div>
 	    <div class="square6"><a href="#" class="lbp-inline-link-6"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',8);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Kate-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',8);?>.png';" class="smlpic" /></a></div>
-	    <div class="square7"><a href="#" class="lbp-inline-link-7"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',9);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Kristen-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',9);?>.png';" class="smlpic" /></a></div>
+	    <div class="square7"><a href="#" class="lbp-inline-link-9"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',11);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Cole-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',11);?>.png';" class="smlpic" /></a></div>
 	    <div class="square8"><a href="#" class="lbp-inline-link-8"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',10);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Syed-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',10);?>.png';" class="smlpic" /></a></div>
-	    <div class="square9"><a href="#" class="lbp-inline-link-9"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',11);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Cole-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',11);?>.png';" class="smlpic" /></a></div>
+	    <div class="square9"><a href="#" class="lbp-inline-link-7"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',9);?>.png " onmouseover="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/Kristen-F.png';" onmouseout="this.src='<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',9);?>.png';" class="smlpic" /></a></div>
 	   <!--   <div class="square10"><a href="#" class="lbp-inline-link-10"><img src="<?php get_bloginfo('home'); ?>/media/userphoto/<?php the_author_meta('ID',12);?>.png " class="smlpic" /></a></div>-->
 	  </div>
 	  <!--PROFILE LIGHTBOX / FOR EACH MEMBER OF SHARE-->

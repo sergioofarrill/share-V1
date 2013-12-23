@@ -123,9 +123,11 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     <script src="http://mcsaatchi-share.com/assets/js/jquery.anythingslider.min.js" type="text/javascript"></script>
     <script src="http://mcsaatchi-share.com/assets/js/jquery.anythingslider.video.min.js" type="text/javascript"></script>
     <script src="http://mcsaatchi-share.com/assets/js/custom.js" ></script>
-<!-- BOX SLIDER 
+
+  
+   <!-- BOX SLIDER -->
  <script type="text/javascript">
-   $('#txtSlider').bxSlider({ 
+   $('#mobileslider').bxSlider({ 
     speed: '4000',
     pause: '10000',
     auto: 'true',
@@ -133,7 +135,8 @@ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     controls: 'false'
        });   
 </script>
--->
+
+
 <!--VIDEO SLIDER (USES ANYTHING SLIDER) -->
 <!-- CHANGE SLIDER DIV ID IN INDEX PAGE TO SWITCH SLIDERS AND ADD VIDEO CONTENT TO SLIDER-->
 
